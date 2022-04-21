@@ -1,8 +1,8 @@
-# undefined
+# README Generator
 
   ## Description
   
-  asdf
+  this is a readme generator
 
   ## Table of Contents
 
@@ -22,26 +22,27 @@
   
   link to an image
   
-  ![screenshot of website/application](asdf)
+  ![screenshot of website/application]()
   
   ## Installation
   
-  asdf
+  npm i
   
   ## Usage
   
-  asdf
+  just use it
   
   ## Credits
   
-  asdf
+  me
   
   ## License
   
-  some silly little license badge
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Contact Me
   
-  asdf
-  asdf
+  GitHub: jkstone321
+
+  Email: jkstone321@gmail.com
 
