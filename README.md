@@ -2,7 +2,7 @@
 
   ## Description
   
-  this is a readme generator
+  This application uses Node.js in the terminal to create a README file ofr GitHub Repositories
 
   ## Table of Contents
 
@@ -12,35 +12,37 @@
 
   - [Usage](#usage)
 
-  - [Credits](#Credits)
+  - [Credits](#credits)
 
-  - [License](#License)
+  - [License](#license)
 
-  - [Contact Me](#Contact Me)
+  - [Contact Me](#contact)
   
   ## Preview
+
+  ![Short video using the application](./assets/img/walkthrough.gif)
   
-  link to an image
-  
-  ![screenshot of website/application]()
+  Video in assets/img for better quality
   
   ## Installation
   
-  npm i
+  In the terminal use "npm i" to download required modules
   
   ## Usage
   
-  just use it
+  To use the application use "node index" in the terminal.
+
+  When the application is done be sure to check the readme and make sure all the information you want is in there.
   
   ## Credits
   
-  me
+  Jordan
   
   ## License
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## Contact Me
+  ## Contact
   
   GitHub: jkstone321
 

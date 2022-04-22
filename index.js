@@ -15,7 +15,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     "What is your project title?",
     "Enter a short description about your project",
-    "Would you like to add a picture of the application? If so enter the URL or the path to image in an assets folder",
+    "Enter URL for image. If none, leave it blank",
     "How do I install the modules needed?",
     "How do I use this application?",
     "Who contributed on this application?",
@@ -82,7 +82,7 @@ inquirer
         writeToFile("README.md", data);
     })
     .catch((err) => {
-
+        if(err) throw err;
     })
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {

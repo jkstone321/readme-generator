@@ -52,6 +52,18 @@ function renderLicenseSection(license) {
   }
 }
 
+function renderPreviewSection(imageLink) {
+  if(imageLink !== ""){ 
+    return `## Preview
+
+  ![website/application screenshot](${imageLink})
+  `;
+  }else{
+    return "";
+  }
+}
+
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -74,11 +86,7 @@ function generateMarkdown(data) {
 
   - [Contact Me](#contact)
   
-  ## Preview
-  
-  link to an image
-  
-  ![screenshot of website/application](${data.picture})
+  ${renderPreviewSection(data.picture)}
   
   ## Installation
   
